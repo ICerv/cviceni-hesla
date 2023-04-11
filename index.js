@@ -1,3 +1,4 @@
+
 const weakPassword = (len) => {
   let result = '';
   for (let i = 0; i < len; i++) {
@@ -35,7 +36,7 @@ const createAccount = (user, generatePassword) => {
 }
 
 document.body.innerHTML += `
-	<p>${createAccount('Míša', weakPassword)}</p>
-	<p>${createAccount('Řízek', mediumPassword)}</p>
-	<p>${createAccount('Hustodémon', strongPassword)}</p>
+  <p>${createAccount('Míša', weakPassword)}</p>
+  <p>${createAccount('Řízek', mediumPassword)}</p>
+  <p>${createAccount('Hustodémon', strongPassword)}</p>
 `;
